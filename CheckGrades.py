@@ -1,4 +1,4 @@
-import requests,time,smtplib,pync
+import requests,time,smtplib
 import pandas as pd
 from bs4 import BeautifulSoup as bs
 from email.message import EmailMessage
@@ -33,7 +33,6 @@ while True:
         else:
             print ("Changes detected at: "+ str(datetime.now()))
             PrevVersion = results
-            pync.notify('New Results is here...', title='MUST')
             #Sending Email
             sender = 'smilelife444@gmail.com'
             reciever = 'osamasaid2009@gmail.com'
