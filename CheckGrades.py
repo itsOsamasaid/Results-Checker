@@ -1,4 +1,4 @@
-import requests,time,smtplib,LoginData,pync
+import requests,time,smtplib,pync
 import pandas as pd
 from bs4 import BeautifulSoup as bs
 from email.message import EmailMessage
