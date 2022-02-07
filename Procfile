@@ -1,1 +1,1 @@
-worker: python CheckGrades.py
+web: python CheckGrades.py
