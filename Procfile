@@ -1,1 +1,1 @@
-web: gunicorn CheckGrades :app --log-file
+worker: python CheckGrades.py
