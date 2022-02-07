@@ -9,8 +9,8 @@ url = 'http://grades.must.edu.eg/'
 grades = 'http://grades.must.edu.eg/ViewStudentGrades/Student_SemesterGrades'
 
 
-datalogin = {'Username': LoginData.Username,
-                'Password': LoginData.Password}
+datalogin = {'Username': '81062',
+                'Password': '3cca5'}
 
 
 PrevVersion = ""
