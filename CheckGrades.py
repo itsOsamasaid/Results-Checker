@@ -23,6 +23,8 @@ while True:
     for div in soup.find_all(class_ ='col-lg-11'):
         results = div.text.strip()
     # compare the page text to the previous version
+    results = "".join([s for s in results.strip().splitlines(True) if s.strip()])
+    results = results.replace("                                                                        ", "")
     if PrevVersion != results:
         # on the first run - just memorize the page
         if FirstRun == True:
