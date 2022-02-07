@@ -43,7 +43,7 @@ while True:
             msg['From'] = 'smilelife444@gmail.com'
             msg['To'] = 'osamasaid2009@gmail.com'
             with smtplib.SMTP_SSL('smtp.gmail.com', 465 ) as server :
-                server.login(sender,LoginData.pswrd)
+                server.login(sender,'Smile@Life444')
                 server.sendmail(sender,reciever, msg.as_string())
                 print('Email was sent to ', reciever)
     else: print( "No Changes "+ str(datetime.now()))
