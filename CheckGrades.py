@@ -45,7 +45,7 @@ while True:
                 server.sendmail(sender,reciever, msg.as_string())
                 print('Email was sent to ', reciever)
     else: print( "No Changes "+ str(datetime.now()))
-    time.sleep(150)
+    time.sleep(process.env.PORT ||150)
     continue
 
 
