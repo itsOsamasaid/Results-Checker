@@ -1,5 +1,4 @@
 import requests,time,smtplib
-import pandas as pd
 from bs4 import BeautifulSoup as bs
 from email.message import EmailMessage
 from datetime import datetime
