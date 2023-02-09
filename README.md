@@ -8,11 +8,13 @@ Initially, I self hosted this script on my labtop but i found that it's not hand
 ### Prerequisites
 
 - Requests\
-```bash pip install requests```\
-Get the grades via HTTP requests
+Get the grades via HTTP requests\
+```bash pip install requests```
+
 - BeautifulSoup\
-```bash pip install beautifulsoup4```\
-Parse the html
+ web scraping library for pulling the data from HTML \
+```bash pip install beautifulsoup4```
+
 - Email\
 Python’s built-in email package to Send emails
 
