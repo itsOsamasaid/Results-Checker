@@ -55,11 +55,3 @@ while True:
       print( "No Changes "+ str(datetime.now()))
     time.sleep(checking_rate)
     continue
-
-
-
-
-
-
-
-
