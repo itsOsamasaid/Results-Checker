@@ -21,7 +21,7 @@ Python’s built-in email package to Send emails
 - [Heroku](https://www.heroku.com/) [Optional]
 
 
-## Run Locally
+### Run Locally
 
 1. Clone the project
 
