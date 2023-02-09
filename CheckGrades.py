@@ -51,8 +51,8 @@ while True:
                 server.login(senderEmail,senderPassword)
                 server.sendmail(senderEmail,receiverEmail, msg.as_string())
                 print('Email was sent to ', reciever)
-    else: 
-    print( "No Changes "+ str(datetime.now()))
+    else:
+      print( "No Changes "+ str(datetime.now()))
     time.sleep(checking_rate)
     continue
 
