@@ -7,15 +7,15 @@ Initially, I self hosted this script on my labtop but i found that it's not hand
 
 ### Prerequisites
 
-- Requests\
+- `Requests`\
 Get the grades via HTTP requests\
 ```pip install requests```
 
-- BeautifulSoup\
+- `BeautifulSoup`\
  web scraping library for pulling the data from HTML \
 ```pip install beautifulsoup4```
 
-- Email\
+- `Email`\
 Python’s built-in email package to Send emails
 
 - [Heroku](https://www.heroku.com/) [Optional]
