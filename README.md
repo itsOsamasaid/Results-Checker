@@ -23,19 +23,19 @@ Python’s built-in email package to Send emails
 
 ## Run Locally
 
-Clone the project
+1. Clone the project
 
 ```bash
   git clone https://github.com/itsOsamasaid/Results-Checker
 ```
 
-Go to the project directory
+2. Go to the project directory
 
 ```bash
   cd Results-Checker
 ```
 
-Start it
+3. Start it
 
 ```bash
   Python3 CheckGrades.py
