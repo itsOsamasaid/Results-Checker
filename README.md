@@ -9,11 +9,11 @@ Initially, I self hosted this script on my labtop but i found that it's not hand
 
 - Requests\
 Get the grades via HTTP requests\
-```bash pip install requests```
+```pip install requests```
 
 - BeautifulSoup\
  web scraping library for pulling the data from HTML \
-```bash pip install beautifulsoup4```
+```pip install beautifulsoup4```
 
 - Email\
 Python’s built-in email package to Send emails
