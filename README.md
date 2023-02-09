@@ -8,7 +8,7 @@ Initially, I self hosted this script on my labtop but i found that it's not hand
 ### Prerequisites
 
 - Requests\
-```bash pip install requests``` \
+```bash pip install requests``` 
 Get the grades via HTTP requests
 - BeautifulSoup\
 ```bash pip install beautifulsoup4```
