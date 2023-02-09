@@ -18,7 +18,7 @@ Get the grades via HTTP requests\
 - Email\
 Python’s built-in email package to Send emails
 
-- [Heroku] (https://www.heroku.com/) [Optional]
+- [Heroku](https://www.heroku.com/) [Optional]
 
 
 ## Run Locally
