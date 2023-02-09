@@ -40,4 +40,8 @@ Python’s built-in email package to Send emails
 ```bash
   Python3 CheckGrades.py
 ```
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
