@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup as bs
 from email.message import EmailMessage
 from datetime import datetime
 
+uni_id = ''
+uni_password = ''
 
 url = 'http://grades.must.edu.eg/'
 grades = 'http://grades.must.edu.eg/ViewStudentGrades/Student_SemesterGrades'
@@ -10,9 +12,6 @@ grades = 'http://grades.must.edu.eg/ViewStudentGrades/Student_SemesterGrades'
 senderEmail = ''
 senderPassword = ''
 receiverEmail = ''
-
-uni_id = ''
-uni_password = ''
 
 checking_rate = 150     #Check every 150 ms
 
