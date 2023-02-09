@@ -41,7 +41,7 @@ Python’s built-in email package to Send emails
   Python3 CheckGrades.py
 ```
 ## Screenshots
+![Result](https://github.com/itsOsamasaid/Results-Checker/blob/main/Result.png)
 
-![App Screenshot](https://drive.google.com/file/d/1lFQmESY4bVHWUmpQOKE0zFkO43iKgmfS/view?usp=share_link)
 
 
