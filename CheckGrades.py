@@ -7,9 +7,17 @@ from datetime import datetime
 url = 'http://grades.must.edu.eg/'
 grades = 'http://grades.must.edu.eg/ViewStudentGrades/Student_SemesterGrades'
 
+senderEmail = ''
+senderPassword = ''
+receiverEmail = ''
 
-datalogin = {'Username': '81062',
-                'Password': '3cca5'}
+uni_id = ''
+uni_password = ''
+
+checking_rate = 150     #Check every 150 ms
+
+datalogin = {'Username': uni_id,
+                'Password': uni_password}
 
 
 PrevVersion = ""
@@ -35,19 +43,17 @@ while True:
             print ("Changes detected at: "+ str(datetime.now()))
             PrevVersion = results
             #Sending Email
-            sender = 'smilelife444@gmail.com'
-            reciever = 'osamasaid2009@gmail.com'
             msg = EmailMessage()
             msg.set_content(results)
             msg['Subject'] = 'New Results is Here...'
-            msg['From'] = 'smilelife444@gmail.com'
-            msg['To'] = 'osamasaid2009@gmail.com'
+            msg['From'] = senderEmail
+            msg['To'] = receiverEmail
             with smtplib.SMTP_SSL('smtp.gmail.com', 465 ) as server :
-                server.login(sender,'Smile@Life444')
-                server.sendmail(sender,reciever, msg.as_string())
+                server.login(senderEmail,senderPassword)
+                server.sendmail(senderEmail,receiverEmail, msg.as_string())
                 print('Email was sent to ', reciever)
     else: print( "No Changes "+ str(datetime.now()))
-    time.sleep(150)
+    time.sleep(checking_rate)
     continue
 
 
