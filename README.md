@@ -12,14 +12,14 @@ Get the grades via HTTP requests\
 ```pip install requests```
 
 - *BeautifulSoup*\
- web scraping library for pulling the data from HTML \
+ Web scraping library for pulling the data from HTML \
 ```pip install beautifulsoup4```
 
 - *Email*\
 Python’s built-in email package to Send emails
 
 - [Heroku](https://www.heroku.com/) [Optional] \
-a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+Platform that enables developers to build, run, and operate applications entirely in the cloud.
 
 
 
