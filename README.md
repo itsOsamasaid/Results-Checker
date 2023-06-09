@@ -1,7 +1,6 @@
 # Overview
 
-In this project, I was tired of checking results every few seconds. So, I started working on this script.
-this script was written in python to web scrape my university results website and check if there's a new result so it can notify me by sending me an email.
+In this project, I was tired of checking results every few seconds. So, I started working on this script that was written in python to web scrape my university results website and check if there's a new result so it can notify me by sending me an email.
 Initially, I self hosted this script on my labtop but later i found that it's not handy. So, I looked for a free hosting providers. At the end I chose Heroku.
 
 
